@@ -1,0 +1,7 @@
+
+.header{
+background: linear-gradient(90deg, #3f8efc, #9c6bff);
+display: flex;
+justify-content: center;
+padding: 20px;
+}

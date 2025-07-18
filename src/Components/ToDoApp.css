@@ -1,0 +1,86 @@
+.to-do-conatiner {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 40px;
+    border-radius: 10px;
+    margin: auto;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.to-do-conatiner:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+input,textarea,select{
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+input:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+textarea:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+select:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.add-button{
+    height: 30px;
+    background: linear-gradient(135deg, #141e30, #146fd6);
+    transition: all 0.5s ease-in-out;
+}
+.add-button:hover{
+    background: linear-gradient(135deg, #141e30, #9dbfe5);
+    scale: 1.1;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+}
+.to-do-card{
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+.to-do-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.delete-button{
+    background-color: red;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 10px;
+    margin-left: 280px;
+    margin-bottom: 10px;
+}
+.edit-button{
+    background-color: green;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 10px;
+}
+.save-button{
+     background-color: green;
+    border-radius: 2px;
+    padding: 3px;
+    margin-right: 10px;
+    margin-left: 300px;
+}
+.cancel-button{
+    background-color: red;
+    border-radius: 2px;
+    padding: 3px;
+}
